@@ -1,4 +1,70 @@
+
+
 *{
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin: 2vw;
+  background-color:rgb(220, 232, 243);
+}
+
+.nav-container {
+  height: 9vh;
+  background-color: blueviolet;
+  width: 91vw;
+  padding: 5px 40px;
+  border-radius: 5px;
+}
+
+.nav-container .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.register-container {
+  height: max-content;
+  width: 30vw;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  border-radius: 10px;
+}
+
+.register-container h3 {
+  background-color: blueviolet;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 25px;
+
+}
+
+.register-container form {
+  margin: 5vh 0vw 0vw 5vw;
+  font-size: 20px;
+}
+
+.register-container form input, button {
+  height: 3vh;
+  width: 15vw;
+  display: block;
+  margin: 5px;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.register-container form button {
+  cursor: pointer;
+  margin-bottom: 50px;
 }
