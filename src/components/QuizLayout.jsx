@@ -4,7 +4,9 @@ function QuizLayout({children}) {
     return (
         <>
          <Sidebar />
-         {children}
+         <div style={{marginLeft: '18vw'}}>
+            {children}
+         </div>
         </>
     )
 }
