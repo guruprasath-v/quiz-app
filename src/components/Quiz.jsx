@@ -130,7 +130,7 @@ function Quiz () {
     };
     const mail = JSON.parse(localStorage.getItem('mail'));
     console.log(mail);
-    if(mail == "" || mail === null) {
+    if(mail === "" || mail === null) {
       alert("Please register")
       navigate("/");
       return null;

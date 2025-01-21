@@ -9,7 +9,7 @@ function Question(props) {
     console.log(props);
     
     function previous() {
-        if (props.qstnNo != 1) props.decrement();
+        if (props.qstnNo !== 1) props.decrement();
     }
 
     function next() {
@@ -20,7 +20,7 @@ function Question(props) {
                     : item
             )
         );
-        if (props.qstnNo != 15) props.increment();
+        if (props.qstnNo !== 15) props.increment();
     }
 
     function saveAnswers(e) {
